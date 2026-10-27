@@ -2,7 +2,7 @@
 
 [中文](README_CN.md)
 
-These templates configure an EMB-C board for a two-, four-, or five-lane EMU with AFC.
+These templates configure an EMB-C board for a two-, three-, four-, or five-lane EMU with AFC.
 
 1. Select the directory matching the number of lanes.
 2. Select `With-Front-Button-PCB` when using the EMU Front Button PCB, otherwise select `Without-Front-Button-PCB`.

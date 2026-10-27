@@ -1,12 +1,13 @@
-# EMB-C 二、四、五通道 Happy Hare 配置
+# EMB-C 二、三、四、五通道 Happy Hare 配置
 
 [English](README.md)
 
-本目录适用于一块 EMB-C 主板驱动 2、4 或 5 个 EMU 通道。
+本目录适用于一块 EMB-C 主板驱动 2、3、4 或 5 个 EMU 通道。
 
 ## 文件
 
 - `For-2-Lanes`：使用 EMB-C 的前两组接口，适用于 2 个 gate。
+- `For-3-Lanes`：使用 EMB-C 的前三组接口，适用于 3 个 gate。
 - `For-4-Lanes`：适用于 4 个 gate。
 - `For-5-Lanes`：适用于 5 个 gate。
 
@@ -26,7 +27,7 @@
 首次生成或需要彻底重建 HH 配置时运行 `./install.sh -i`，选择 `2) Replace`。
 
 - MMU：`EMU v1.0`
-- Gate 数量：选择与目录相同的 `2`、`4` 或 `5`
+- Gate 数量：选择与目录相同的 `2`、`3`、`4` 或 `5`
 - MCU topology / Board type：`Shared / externally configured MCU`
 - 启用 LED，并保留 EMU 的同步缓冲器（PSF）配置；最终 LED 链长度和分段由所选硬件配置文件决定。
 - 不启用 `Has environment sensors?`

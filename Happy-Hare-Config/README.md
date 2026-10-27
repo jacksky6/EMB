@@ -2,7 +2,7 @@
 
 [中文](README_CN.md)
 
-These templates configure an EMB-C board for a two-, four-, or five-gate EMU with Happy Hare.
+These templates configure an EMB-C board for a two-, three-, four-, or five-gate EMU with Happy Hare.
 
 1. Select the directory matching the number of gates.
 2. Select `With-Front-Button-PCB` when using the EMU Front Button PCB, otherwise select `Without-Front-Button-PCB`.

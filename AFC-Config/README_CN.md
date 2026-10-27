@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-这些模板用于将 EMB-C 主板配置为 AFC 的二、四或五通道 EMU。
+这些模板用于将 EMB-C 主板配置为 AFC 的二、三、四或五通道 EMU。
 
 1. 选择与实际通道数对应的目录。
 2. 使用 EMU Front Button PCB 时选择 `With-Front-Button-PCB`，普通微动开关时选择 `Without-Front-Button-PCB`。
